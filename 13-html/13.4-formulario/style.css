@@ -1,0 +1,97 @@
+/* Resetando margens e paddings para um layout consistente */
+
+/*background-image: url('wp11611082.jpg');*/
+/*background-size: cover;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Globais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: #f4f4f9;*/
+    background-image: url('wp11611082.jpg');
+    background-size: 50%;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal do formulário */
+.container {
+    background-color: #fff;
+    opacity: 80%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Título do formulário */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo para formatação de cada grupo de input */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Estilo para os rótulos labels*/
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Estilo de formatação para os campo de Input*/
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Foco nos campos de input quando selecionados */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Estilo do botão Cadastrar */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+/* Estilo do botão de envio ao passar o mouse */
+button:hover {
+    background-color: #0056b3;
+}

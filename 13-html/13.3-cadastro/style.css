@@ -1,0 +1,83 @@
+/*Reset das margens da página*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos Globais*/
+body {
+    font-family: Arial, Helvetica, sans-serif; /*Fonte do texto*/
+    background-image: url('Volvo_520.jpeg');
+    background-size: cover;
+    color: #333; /*Cor do texto*/
+    display: flex; /*Libera o conteúdo interno do body*/
+    justify-content: center; /*Centralizar o conteúdo Horizontal*/
+    align-items: center; /*Centralizar o conteúdo na vertical*/
+    height: 100vh;
+}
+
+/*Formatação da caixa do formulário*/
+.container {
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px; /*Margem interna da caixa*/
+    border-radius: 8px; /*Borda arredondada*/
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.1); /*Sombra*/
+    width: 100%; /*Largura*/
+    max-width: 400px; /*Largura Máxima*/
+    text-align: center; /*Alinhamento do texto*/
+}
+
+/*Formatação do Título*/
+h1 {
+    font-size: 24px; /*Tamanho da fonte do título*/
+    color: #333; /*Cor da fonte*/
+    margin-bottom: 20px; /*Margem inferior*/
+}
+
+/*Formatação para cada campo do formulário*/
+.form-group {
+    margin-bottom: 15px;
+    text-align: left; /*Alinhamento para a esquerda*/ 
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="password"] {
+    width: 100%; /*largura total do input*/
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+
