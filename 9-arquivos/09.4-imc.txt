@@ -1,0 +1,5 @@
+Luis Ricardo: IMC = 23.55 (Peso Adequado)
+Flávio Ricardo: IMC = 28.06 (Sobrepeso)
+Cintia Petrin: IMC = 27.68 (Sobrepeso)
+Vinícius Anselmo: IMC = 26.30 (Sobrepeso)
+Marcos: IMC = 21.60 (Peso Adequado)

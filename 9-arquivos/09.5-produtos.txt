@@ -1,0 +1,5 @@
+Café | R$ 35.00 | Quantidade: 2
+Açucar | R$ 8.50 | Quantidade: 4
+Achocolatado | R$ 4.50 | Quantidade: 1
+Leite | R$ 5.50 | Quantidade: 4
+Arroz | R$ 20.00 | Quantidade: 1

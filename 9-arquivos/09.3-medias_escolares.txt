@@ -1,0 +1,5 @@
+Aluno: João Grilo | Média: 7.00 | Resultado: Aprovado ✅
+Aluno: Chicó | Média: 6.00 | Resultado: Em Recuperação ⚠️
+Aluno: Mega-Man | Média: 9.17 | Resultado: Aprovado ✅
+Aluno: Mario Brós | Média: 8.67 | Resultado: Aprovado ✅
+Aluno: Copas | Média: 3.17 | Resultado: Reprovado ❌
