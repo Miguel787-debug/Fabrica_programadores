@@ -6,4 +6,4 @@ email = input("Digite o e-mail: ")
 
 # Abre (ou cria) o arquivo 'pessoa.txt' no modo de anexação ('a') e escreve os dados
 with open("pessoa.txt", "a") as arquivo:
-	arquivo.write(nome + "|" + email + "\n") # Utiliza 'with' para garantir que o arquivo seja fechado automaticamente
+	arquivo.write(nome + "|" + email + "\n") 

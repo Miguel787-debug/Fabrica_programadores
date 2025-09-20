@@ -13,4 +13,4 @@ while letra.lower() == "s":
     # Pergunta ao usuário se deseja continuar cadastrando
     letra = input("Deseja realizar um novo cadastro - [S/N]: ")
 
-print("Cadastro encerrado.") # Indica que o processo de cadastro foi finalizado
+print("Cadastro encerrado.") 
