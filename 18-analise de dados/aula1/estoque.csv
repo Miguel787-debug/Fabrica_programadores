@@ -1,0 +1,13 @@
+tipo,marca,modelo,ano,cor,quantidade,valor
+caminhao,volvo,fh16,2020,azul,5,1000000
+carro,vw,fox,2009,prata,10,25000
+caminhao,scania,r420,2010,vermelho,3,350000
+carro,vw,golf,2008,preto,7,40000
+caminhao,mercedes,axor,2015,branco,2,320000
+caminhao,mercedes,1620,2005,amarelo,6,200000
+caminhao,vw,24.250,2010,verde,10,240000
+carro,chevrolet,corsa,2000,ciano,4,15000
+caminhao,ford,cargo,2012,cinza,2,280000
+caminhao,volvo,nh12,2008,dourado,1,550000
+caminhao,scania,p320,2020,marrom,6,400000
+moto,kawasaki,h2r,2020,verde,15,140000
